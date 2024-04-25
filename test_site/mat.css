@@ -1,0 +1,75 @@
+body{
+    
+    background-image: url(https://gas-kvas.com/uploads/posts/2023-03/1678091438_gas-kvas-com-p-krasivie-tsveta-dlya-fona-risunka-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+img {
+width: 400px;
+border-radius: 52px;
+}
+img:hover{
+border: 3px solid grey;
+}
+article {
+background-color: wheat;
+width: 350px;
+border: 3px solid turquoise;
+border-radius: 62px;
+padding: 20px;
+display: inline-block;
+vertical-align: top;
+margin: 20px
+}
+p{
+font-size: 24px;
+color: black;
+text-align: center;
+}
+a {
+font-size: 30px;
+text-align: center;
+position: sticky;
+top: 10px;
+right: 100px
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    background-color: rgb(148, 115, 211);
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+      }
+article1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    background-color: wheat;
+    width: 1000px;
+    border: 3px solid turquoise;
+    border-radius: 62px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px
+}
+p1{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    }
